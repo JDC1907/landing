@@ -1,13 +1,11 @@
-// Reemplaza con tu URL
 const databaseURL = 'https://landing-c96d7-default-rtdb.firebaseio.com/coleccion.json';
 
 let sendData = () => {
-    // Obtén los datos del formulario
+
     const formData = new FormData(form);
     const data = Object.fromEntries(formData.entries()); // Convierte FormData a objeto
     data['saved'] = new Date().toLocaleString('es-CO', { timeZone: 'America/Guayaquil' })
 
-    // Realiza la petición POST con fetch
     fetch(databaseURL, {
         method: 'POST', // Método de la solicitud
         headers: {

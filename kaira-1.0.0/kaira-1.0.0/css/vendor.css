@@ -122,6 +122,35 @@
   font-size: 16px;
   color: #333;
 }
+
+
+/* ---------------logo footer----------- */
+.logo-bar {
+  position: relative;
+
+}
+
+.logo-image {
+  opacity: 0.5;
+  max-width: 300px; 
+  transition: opacity 0.3s ease; 
+}
+
+.logo-image:hover {
+  opacity: 1; 
+}
+
+
+
+/* ---------------navbar---------------- */
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 /** Colorbox Lightbox
 --------------------------------------------------------------*/
